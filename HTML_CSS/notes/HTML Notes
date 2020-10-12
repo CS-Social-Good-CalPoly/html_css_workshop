@@ -1,0 +1,107 @@
+HTML -> Hyper Text Markup Language
+	-Show example of any webpage on the underlying HTML
+	-Not a language
+	-Responsible for the structure of all webpages, super important for web dev
+	-General syntax: <element>Content</element>
+		-Some elements are self closing: <element/>
+	-Homepage is index.html (standard)
+	
+HTML Structure
+	<!DOCTYPE html> -> HTML Version
+	
+	<html> -> Root element
+		<head> -> meta data info about the page
+			<title>Page Title</title> -> Page title
+			
+			...Meta, Links
+		</head>
+		
+		<body> -> start content of page
+		
+		</body>
+		
+	</html>
+	-Make sure to follow HTML structure
+
+	
+Headings <h1> </h1>
+	-For workshop show a bad and good example of headings
+	
+	-<h1> - <h6> (Large to small)
+	-<h1> for main headings, <h2> for less important, etc...
+	-Dont use a heading just because it displays things big or small, instead think about the priority of what is actually being displayed
+	-Search engines use heading to index the structure/content of web page
+	-Users will skim pages by headings, use headings to show the document structure
+
+Paragraph <p> </p>
+	-display whatever is inside the p element
+	-HTML ignores whitespace inside elements
+
+Images: <img src="link or relative path" alt="" width="" />
+	-To display images
+	-src is the source of image
+		-can be a relative path from local pc or a link. Beware link might be extremely long
+	-alt is the text that is displayed if image is not found
+	-www.pexels.com for good free images for your website
+	-can use width to adjust width which will readjust the height as well
+	-you should compress your images so that it doesnt take people a long time to load images
+
+Comments: <!-- Hello -->
+
+<br> For a line break
+
+Links: <a href=""> Text </a>
+	-href is the external link which the user will navigate to
+	-can use links for internal navigation between pages
+		<a href="about.html">About</a>
+
+Strong words: <strong> </strong>
+	-Bolds the text within
+
+Emphasis: <em> </em>
+	-Italics
+
+Unordered List: <ul> 
+					<li> List item</li>
+				</ul>
+	-no order to lists
+	-list items with <li>
+
+Ordered List: <ol>
+				<li>List Item</li>
+			  </ol>
+	-List with numbers
+
+Forms: <form action="" method="">
+		<label for="name">first name</label>
+		<input type="text" name="name" id="name" placeholder="Enter name">
+		<button type="submit">submit</button>
+	   </form>
+	   
+	-action is where the information is sent
+	-method is how the information is processed
+		-POST means sending data and adding to server
+		
+	-type can be of many different types (e.g. text, submit, checkbox, email)
+	-name is name of input, id is used to access it in CSS
+	-button to submit
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+		
+	

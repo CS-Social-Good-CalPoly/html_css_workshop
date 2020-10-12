@@ -1,0 +1,77 @@
+-Cascading Style Sheet
+	-not a programming language
+	-allows you to design website
+	
+-many ways to design a website, no one way
+	-can be more artistic
+	
+- 3 Methods for adding css
+	-Inline
+		-Directly in html element
+		-frown upon you generally want to keep styling and html separate
+	-Internal 
+		-using <style> tags within document
+	-External 
+		-linking html to an external css file
+
+-Use id and class to grab certain elements
+
+-css syntax: https://duckduckgo.com/?t=ffab&q=css+selector&iax=images&ia=images&iai=https%3A%2F%2Fwww.w3schools.com%2Fcss%2Fselector.gif
+
+Div
+	-used to group certain parts of the webpage together
+
+Colors
+	-color by name, hexadecimal, RGB
+Font-family:
+	-lots of safe fonts
+	-https://roldanherbosablog.files.wordpress.com/2013/12/websafe-fonts1.jpg
+	-additional fonts will need to export from Google Fonts
+	-Default is Times New Roman
+Font-size: change size in px
+Font-weight: normal, bold
+Use "em" which will make it more responsive to site
+
+Class vs ID
+	-id are unique to a certain element
+	-class are for groups of things that you might use again
+	
+.classname to access in CSS file
+
+Use % to make items responsive to page, relative to the users page
+	-depends on the parent element
+
+em
+	-relative to the browser's font size or the parent div
+	- 1em = 16px
+
+rem
+	-does not depend on the parent
+	-depends on the root aka html
+
+vh and vw
+	-vh is the height that is a % of the screen
+	-vw is the width that is a % of the screen
+	-great for making sure your website is responsive
+
+margin to spacing on sides
+	-margin: auto to make equal spacing on all sides
+	
+Margin vs Padding
+	-box model
+	-show example on slides
+	-padding is for inside the border
+	-margin is for outside the border
+	
+Positioning 
+	-static
+	-relative
+		-positioning from its border
+	-absolute
+	-fixed
+		-stays fixed within the page even when you scroll
+	-inital
+	-inherit
+
+
+	

@@ -1,0 +1,99 @@
+header {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container{
+    flex: 1;
+}
+
+nav {
+    flex: 1;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+    color: #00C0C5;
+}
+
+.socials img {
+    height: 5vh;
+}
+
+.welcome {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    height: 80vh;
+}
+
+.introduction {
+    flex: 1;
+}
+
+.headshot {
+    flex: 1;
+}
+
+.headshot img {
+    height: 50vh;
+}
+
+.bio-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.socials {
+    display: flex;
+    justify-content: center;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+.intro-text h1 {
+    font-size: 44px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 7px 15px 7px 15px;
+    color: white;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
